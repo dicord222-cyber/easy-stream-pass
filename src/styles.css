@@ -59,7 +59,23 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-netflix-red: var(--netflix-red);
+  --color-netflix-red-hover: var(--netflix-red-hover);
+  --color-netflix-bg: var(--netflix-bg);
+  --color-netflix-card: var(--netflix-card);
+  --color-netflix-border: var(--netflix-border);
+  --color-netflix-text: var(--netflix-text);
+  --color-netflix-muted: var(--netflix-muted);
 }
+
+:root {
+  --netflix-red: oklch(0.55 0.22 25);
+  --netflix-red-hover: oklch(0.6 0.23 25);
+  --netflix-bg: oklch(0.08 0 0);
+  --netflix-card: oklch(0.16 0 0);
+  --netflix-border: oklch(0.25 0 0);
+  --netflix-text: oklch(0.98 0 0);
+  --netflix-muted: oklch(0.65 0 0);
 
 :root {
   --radius: 0.625rem;
