@@ -104,7 +104,7 @@ function Index() {
                 <Field label="Senha" value={account.password} copied={copied === "password"} onCopy={() => copy("password", account.password)} mono />
                 <div className="flex items-center justify-between pt-3 border-t border-netflix-border">
                   <span className="text-sm text-netflix-muted">Plano</span>
-                  <span className="text-sm font-semibold text-netflix-red">{account.plan}</span>
+                  <span className="text-sm font-semibold text-white">{account.plan}</span>
                 </div>
               </div>
             ) : null}
@@ -124,7 +124,7 @@ function Field({ label, value, copied, onCopy, mono }: { label: string; value: s
     <div>
       <div className="text-xs uppercase tracking-widest text-netflix-muted mb-2">{label}</div>
       <div className="flex items-center gap-2 bg-netflix-bg border border-netflix-border rounded-md px-3 py-2">
-        <span className={`flex-1 truncate ${mono ? "font-mono" : ""}`}>{value}</span>
+        <span className={`flex-1 truncate text-white ${mono ? "font-mono" : ""}`}>{value}</span>
         <button onClick={onCopy} className="text-netflix-muted hover:text-netflix-text transition-colors p-1" aria-label={`Copiar ${label}`}>
           {copied ? <Check className="h-4 w-4 text-green-500" /> : <Copy className="h-4 w-4" />}
         </button>
