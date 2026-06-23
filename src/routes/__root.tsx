@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "NETFLAKE" },
+      { name: "description", content: "Netflix Genie generates Netflix account credentials via a simple button click." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "NETFLAKE" },
+      { property: "og:description", content: "Netflix Genie generates Netflix account credentials via a simple button click." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "NETFLAKE" },
+      { name: "twitter:description", content: "Netflix Genie generates Netflix account credentials via a simple button click." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53d215a9-a993-4d91-a8a2-b546c2216af2/id-preview-138599f5--5f3cbe78-059b-4c14-8ad5-fb1a91687709.lovable.app-1782231828492.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53d215a9-a993-4d91-a8a2-b546c2216af2/id-preview-138599f5--5f3cbe78-059b-4c14-8ad5-fb1a91687709.lovable.app-1782231828492.png" },
     ],
     links: [
       {
